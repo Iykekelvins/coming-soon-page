@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+::placeholder{
+    color: #343a40;
+    font-family: inherit;
+}
+
+h1,h4,p{
+    text-align: center;
+}
+
+h1{
+    line-height: 2.5em;
+    color:  #343a40;
+}
+
+p{
+    color:#343a40;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    height: 100vh;
+    background-image: url(./images/jacob-sapp-aZhRG5i5rb0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    margin: 10px 30px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(0, 45%);
+}
+
+.intro-text{
+    text-align: center;
+    color:#6c757d;
+    font-weight: 400;
+    position: relative;
+    top:12px;
+    width: 25%;
+}
+
+.coming{
+    display: block;
+    font-size: 6rem;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.soon{
+    font-weight: 400;
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.sign-up{
+    max-width: 80%;
+}
+
+.sign-up-form{
+    border: 1.3px solid #fff;
+    background: transparent;
+    padding:5px;
+    width: 400px;
+    height: 20px;
+    outline: none;
+}
+
+.btn{
+    background-color: #fff;
+    color: #28a745;
+    padding: 5px 20px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.social-icons{
+    margin: 7px;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:725px){
+    .intro-text{
+        width: 50%;
+    }
+    .sign-up-form{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:505px){
+    .intro-text{
+        width: 70%;
+    }
+    .sign-up-form{
+        width: 270px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .coming{
+        font-size: 5rem;
+    }
+    .soon{
+        font-size: 4rem;
+    }
+    .sign-up-form{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .sign-up-form{
+        width: 120px;
+    }
+}
